@@ -30,5 +30,5 @@ reset.addEventListener("click", ()=>{
     num = guessNumber()
     number.value = '';
     number.focus()
-    text.innerText = 'Guess a number between 1 and 100';
+    text.innerText = 'Guess a number between 1 & 100';
 })
