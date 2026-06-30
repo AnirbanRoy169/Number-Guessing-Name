@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="h-full flex align center">
+        <div class="flex column align center border w-half bg-main">
+            <h1 class="underline"><i>Number Guessing Game</i></h1>
+            <div id="text" class="text-box">Guess a number between 1 and 100</div>
+            <input class="form-control w-50 my-20" type="number" name="number" id="number" autofocus>
+            <div>
+                <button id="check" class="btn btn-outline-success mx-10 my-10 options">Check</button>
+                <button id="reset" class="btn btn-outline-danger mx-10 my-10 options">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
